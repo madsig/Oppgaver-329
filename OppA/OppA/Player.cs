@@ -33,7 +33,6 @@ namespace OppA
 
         public void ShowNameAndPoints()
         {
-            Console.WriteLine();
             var spaces = new string(' ', 8 - _name.Length);
             Console.WriteLine($"Navn: {_name}{spaces}Poeng: {_score}");
         }

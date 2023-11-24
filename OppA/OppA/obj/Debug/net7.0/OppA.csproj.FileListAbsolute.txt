@@ -12,3 +12,4 @@ C:\Users\MadsI\Documents\Koding\GetAcademy\Emne 3\2023.11.22 - Oppgaver 329\OppA
 C:\Users\MadsI\Documents\Koding\GetAcademy\Emne 3\2023.11.22 - Oppgaver 329\OppA\OppA\obj\Debug\net7.0\OppA.pdb
 C:\Users\MadsI\Documents\Koding\GetAcademy\Emne 3\2023.11.22 - Oppgaver 329\OppA\OppA\obj\Debug\net7.0\OppA.genruntimeconfig.cache
 C:\Users\MadsI\Documents\Koding\GetAcademy\Emne 3\2023.11.22 - Oppgaver 329\OppA\OppA\obj\Debug\net7.0\ref\OppA.dll
+C:\Users\MadsI\Documents\Koding\GetAcademy\Emne 3\2023.11.22 - Oppgaver 329\OppA\OppA\obj\Debug\net7.0\OppA.sourcelink.json
