@@ -2,20 +2,26 @@
 {
     internal class Subject
     {
-        public string SubjectName { get; private set; }
-        public int Day { get; private set; }
-        public int Period { get; private set; }
-        public Subject(string nameInput, int dayInput, int periodInput)
+        private string _name;
+        private Room room; //tid, sted
+        private Teacher _teacher;
+        private List<Student> _student;
+
+        public Subject(string name)
         {
-            SubjectName = nameInput;
-            Day = dayInput;
-            Period = periodInput;
+            _name = name;
+            //_room = room;
+            //_teacher = teacher;
         }
 
-        public static string GetDateString()
+        public string GetName()
         {
-            var dateString = $"{(Enum.Weekday)Day} i {Period}. periode";
-            return dateString;
+            return _name;
         }
+
+        
+
+
+
     }
 }

@@ -17,7 +17,7 @@
 
             var sodaMachine = new SodaMachine(sodaArray, sodaStockArr);
 
-            while (true)
+            while (true) //skrive om for å kunne enten legge til penger eller kjøpe brus
             {
                 sodaMachine.ShowInventory();
 

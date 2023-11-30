@@ -1,24 +1,57 @@
-﻿using System.ComponentModel;
-
-namespace OppB
+﻿namespace OppB
 {
     internal class Class
     {
-        public string ClassName { get; private set; }
-        public Subject[] Subjects { get; private set; }
-        public Class(string nameInput, Subject[] subjectsInput)
+        private string _className;
+        private Subject[] _subjects;
+        private Teacher _teacher;
+        private List<Student> _students = new List<Student>();
+
+        //private int _studentCount;
+
+        public Class(string className, Subject[] subjects, List<Student> students, Teacher teacher) 
         {
-            ClassName = nameInput;
-            Subjects = subjectsInput;
+            _className = className;
+            _subjects = subjects;
+            _teacher = teacher;
+            _students = students;
+
         }
 
-        public void PrintSubjects()
+        public string GetName()
         {
-            foreach (var subject in Subjects)
+            return _className;
+        }
+
+        public Subject[] GetSubjects()
+        {
+            return _subjects;
+        }
+
+        public void AddStudents(Student student)
+        {
+            _students.Add(student);
+        }
+
+        public string[] GetSubjectNames()
+        {
+            var subjectNames = new List<string>();
+            foreach (Subject subject in _subjects)
             {
-                Console.Write(subject.SubjectName);
-                Console.WriteLine($"  {Subject.GetDateString()}");
+                subjectNames.Add(subject.GetName());
             }
+            return subjectNames.ToArray();
+        }
+
+        public string[] GetStudentNames()
+        {
+            var studentNames = new List<string>();
+            foreach (var student in _students)
+            {
+                studentNames.Add(student.GetName());
+            }
+            return studentNames.ToArray();
+
         }
     }
 }

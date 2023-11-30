@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OppC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4043781ff4b40a32b79efc2ba7ae1cf63f96c897")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a36d18fdf3935c8c03b345ba5e65b06f8a8737b5")]
 [assembly: System.Reflection.AssemblyProductAttribute("OppC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OppC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
