@@ -4,7 +4,7 @@
     {
         private string _className;
         private Subject[] _subjects;
-        private Teacher _teacher;
+        private Teacher _teacher; 
         private List<Student> _students = new List<Student>();
 
         //private int _studentCount;
@@ -17,6 +17,8 @@
             _students = students;
 
         }
+
+
 
         public string GetName()
         {

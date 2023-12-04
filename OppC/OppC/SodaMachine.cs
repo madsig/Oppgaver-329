@@ -9,7 +9,7 @@
 
         private static readonly string[] CoinName = { "en", "fem", "ti", "tjue" };
 
-        public SodaMachine(Soda[] sodas, int[] stock)
+        public SodaMachine(Soda[] sodas, params int[] stock)
         {
             _sodaInventory = sodas;
             _sodaStock = stock;

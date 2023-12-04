@@ -13,9 +13,8 @@
                 new Soda("Solo", 23),
                 new Soda("Solo Super", 21),
             };
-            var sodaStockArr = new int[] { 4, 5, 2, 8, 6, 6 };
 
-            var sodaMachine = new SodaMachine(sodaArray, sodaStockArr);
+            var sodaMachine = new SodaMachine(sodaArray, 4, 5, 2, 8, 6, 6);
 
             while (true) //skrive om for å kunne enten legge til penger eller kjøpe brus
             {

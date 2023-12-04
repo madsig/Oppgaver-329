@@ -8,8 +8,8 @@
             SchoolManager manager = new SchoolManager();
 
             manager.InitSchedule();
-            Console.WriteLine(manager.GetAllTeachers());
-            Console.WriteLine(manager.GetAllSubjects());
+            //Console.WriteLine(manager.GetAllTeachers());
+            //Console.WriteLine(manager.GetAllSubjects());
             Console.WriteLine(manager.GetAllClasses());
 
             //var lærer1 = new Teacher("Marit");

@@ -10,9 +10,6 @@
             Printe timeplan.
         */
 
-
-
-
         private Names names = new Names();
 
         private List<Teacher> _teachers;
@@ -88,12 +85,16 @@
         {
             foreach (Class c in _classes)
             {
-                foreach(Subject s in c.GetSubjects())
+                
+                foreach (Subject s in c.GetSubjects())
                 {
-                    foreach(Room r in _rooms)
+                
+                    foreach (Room r in _rooms)
                     {
                         r.BookNextAvailableTime(s.GetName());
+                        return;
                     }
+
                 }   
             }
         }
@@ -127,7 +128,7 @@
             {
                 result += "Klasse "+c.GetName() + " har følgende fag:\n" +
                     string.Join(", ", c.GetSubjectNames()) + "\n" +
-                    "Elever:\n"+ string.Join(", ",c.GetStudentNames());
+                    "Elever:\n"+ string.Join(", ",c.GetStudentNames())+"\n\n";
             }
             return result;
 
